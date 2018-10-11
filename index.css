@@ -2,9 +2,19 @@ img {
   length: 500px;
   width: 250px;
 }
-body {
-  text-align: center;
-  font-family:"Arial";
-  background: Black;
-  color: White;
+background: linear-gradient(270deg, #ff6961, #ffb347, #ffd1dc);
+background-size: 600% 600%;
+
+-webkit-animation: gradientwall 5s ease infinite;
+animation: gradientwall 5s ease infinite;
+
+@-webkit-keyframes gradientwall {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientwall { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
