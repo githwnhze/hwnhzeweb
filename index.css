@@ -7,7 +7,7 @@ body {
   font-family: "Arial";
   
   background: linear-gradient(270deg, #ff6961, #ffb347, #ffd1dc);
-  background-size: 600% 600%;
+  background-size: 100% 100%;
 
   -webkit-animation: gradientwall 5s ease infinite;
   animation: gradientwall 5s ease infinite;
