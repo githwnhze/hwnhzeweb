@@ -2,6 +2,11 @@ img {
   length: 500px;
   width: 250px;
 }
+body {
+    display: block;
+    margin: 8px;
+}
+
 background: linear-gradient(270deg, #ff6961, #ffb347, #ffd1dc);
 background-size: 600% 600%;
 
