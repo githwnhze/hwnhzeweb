@@ -1,1 +1,21 @@
-<body style="background-image:url(https://i.imgur.com/SNLYODK.gif)">
+html {
+  background-image: url(https://i.imgur.com/SNLYODK.gif);
+  background-attachment: fixed ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: skyblue;
+  height: 10em;
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: "Monospace";
+}  
